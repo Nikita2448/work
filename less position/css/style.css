@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+body{
+    font-size:18px;
+    background:rgb(157, 155, 247);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: normal;
+    color: black;
+}
+.box1{
+    background: rgb(38, 252, 38);
+    position:relative;
+    top:100px;
+    right: -50px;
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    text-align: center;
+
+}
+.box{
+    background: rgba(38, 252, 38, 0.637);
+    position:static;
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    text-align: center;
+}
+.box2{
+    background: rgb(0, 89, 255);
+    position:absolute;
+    top:100px;
+    left:1000px;
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    text-align: center;
+}
+.flag{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border:2px solid black;
+    background:white;
+    display:flex;
+    justify-content: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.box3{
+    background: rgb(251, 255, 0);
+    position:fixed;
+    top:100px;
+    left:100px;
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    text-align: center;
+}
+.box4{
+    background: rgb(255, 0, 0);
+    position:sticky;
+    left:200px;
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    text-align: center;
+}
