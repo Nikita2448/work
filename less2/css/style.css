@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+body{
+background-color: rgb(199, 234, 255);
+color:blue;
+font-size: 18px;
+font-weight: normal;
+font-family: 'Montserrat',sans-serif;   
+}
+a{
+ color:red;
+ font-weight: bold;
+ font-size: 20px;
+text-decoration: none;
+}
+img{
+background-color:darkblue;
+height: 300px;
+width: 300px;
+border-radius: 30%;
+}
+ul li a{
+color:darkblue;
+}
+ul{
+list-style-type: square;
+}
+p{
+font-style: italic;
+}
