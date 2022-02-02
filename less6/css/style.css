@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.main1, .main2, .main3{
+    width: 600px;
+    height: 180px;
+    margin:50px;
+}
+.main1>.box1, .box2, .box3{
+    height: 60px;
+}
+.main1>.box1{
+    background-color: chartreuse;
+}
+.main1>.box2{
+    background-color: crimson;
+}
+.main1>.box3{
+    background-color: cyan;
+}
+.main2>.box1, .box2, .box3{
+    height: 60px;
+}
+.sbox1, .sbox2, .sbox3{
+    width: 200px;
+    height: 60px;
+    float:left;
+}
+.sbox1{
+    background-color: darkgreen;
+}
+.sbox2{
+    background-color: darkorange;
+}
+.sbox3{
+    background-color: hotpink;
+}
+.main2>.box2{
+    background-color: black;
+}
+.duobox1, .duobox2{
+    height: 60px;
+    width: 300px;
+    float:left;
+}
+.duobox1{
+    background-color: darkseagreen;
+}
+.duobox2{
+    background-color: fuchsia;
+}
+.main3{
+    background-color: dimgray;
+}
+.tbox1, .tbox2, .tbox3{
+    float:left;
+    width: 150px;
+    height: 150px;
+    margin:25px;
+}
+.tbox1{
+    background-color: dodgerblue;
+}
+.tbox2{
+    background-color: gold;
+}
+.tbox3{
+    background-color: lawngreen;
+}
