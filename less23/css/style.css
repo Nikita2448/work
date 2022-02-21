@@ -1,0 +1,63 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 2400px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+.container{
+    width: 944px;
+    height: 100%;
+}
+.menu-inf ul li{
+    display: inline-block;
+    margin-right: 90px;
+}
+.menu-inf{
+    width: 944px;
+    padding-top: 32px;
+    margin: auto auto;
+    padding-bottom: 12px;
+}
+hr{
+    width: 944px;
+    margin: auto auto;
+}
+.name{
+    font-size: 48px;
+    font-weight: 900;
+    width: 133px;
+    height: 112px;
+    padding-left: 248px;
+    padding-top: 41px;
+}
+.shor-about-me{
+    padding-bottom: 92px;
+    left: 638px;
+    top: 150px;
+    width: 163px;
+    height: 88px;
+    font-size: 22px;
+}
+.language{
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 61px;
+    height: 28px;
+    font-size: 20px;
+    left: 1165px;
+    top: 150px;
+}
+.home img{
+    width: 944px;
+    height: 385.27px;
+    left: 248px;
+    top: 330px;
+}
